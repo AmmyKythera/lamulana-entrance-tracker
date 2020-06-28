@@ -136,3 +136,26 @@ li {
 #notes {
 	width: 500px;
 }
+
+#mnemonics {
+	position:fixed;
+	left:35%;
+	top:0;
+	width:30%;
+	margin:15px 15px 0px 15px;
+}
+
+#notepad-hold {
+	position:fixed;
+	left:70%;
+	top:0;
+	width:30%;
+	margin:15px 15px 15px 15px;
+	height:50%;
+}
+
+#notepad{
+	width:90%;
+	margin: 5px;
+	height: 100%;
+}
