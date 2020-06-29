@@ -42,8 +42,8 @@ const ENTRANCES =
 	{"name": "ygg-main-gate", "display": "Yggdrasil Main Gate (D-4)", "oneway": false, "field": "Yggdrasil", "type": Direction.GATE, "logname": "Roots of Yggdrasil Main (D-4)"},
 	{"name": "ygg-tl-gate", "display": "Yggdrasil Top Left Switch Gate (A-1)", "oneway": false, "field": "Yggdrasil", "type": Direction.GATE, "logname": "Roots of Yggdrasil Top Left Gate (A-1)"},
 	{"name": "ygg-tm-gate", "display": "Yggdrasil Top Middle Nidhogg Gate (D-1)", "oneway": false, "field": "Yggdrasil", "type": Direction.GATE, "logname": "Roots of Yggdrasil Top Middle Gate (D-1)"},
-	{"name": "ygg-tr-gate", "display": "Yggdrasil Top Right Birth Gate (G-1)", "oneway": false, "field": "Yggdrasil", "type": Direction.GATE, "logname": "Roots of Yggdrasil Top Right Gate (G-1)"},
-	{"name": "ygg-bottom", "display": "Yggdrasil Ladder Down Left (C-5)", "oneway": false, "field": "Yggdrasil", "type": Direction.DOWN, "logname": "Roots of Yggdrasil Ladder (C-5)"},
+	{"name": "ygg-tr-gate", "display": "Yggdrasil Top Right Gate (G-1) *BIRTH*", "oneway": false, "field": "Yggdrasil", "type": Direction.GATE, "logname": "Roots of Yggdrasil Top Right Gate (G-1)"},
+	{"name": "ygg-bottom", "display": "Yggdrasil Ladder Down Left (C-5) *ORIGIN*", "oneway": false, "field": "Yggdrasil", "type": Direction.DOWN, "logname": "Roots of Yggdrasil Ladder (C-5)"},
 
 	{"name": "annwfn-main-top", "display": "Annwfn Main Ladder Up (C-1)", "oneway": false, "field": "Annwfn", "type": Direction.UP, "logname": "Annwfn Ladder (C-1)"},
 	{"name": "annwfn-bottom", "display": "Annwfn Bottom One-Way Ladder (F-1)", "oneway": true, "field": "Annwfn", "type": Direction.DOWN, "logname": "Annwfn Bottom (E-5)"},
@@ -54,7 +54,7 @@ const ENTRANCES =
 	{"name": "ib-right", "display": "Imm Battlefield Right (H-4)", "oneway": false, "field": "Battlefield", "type": Direction.RIGHT, "logname": "Immortal Battlefield Right Door (H-4)"},
 	{"name": "ib-bottom-wheel", "display": "Imm Battlefield Wheel Ladder Down (D-7)", "oneway": false, "field": "Battlefield", "type": Direction.DOWN, "logname": "Immortal Battlefield Down Ladder near Spinning Wheel (D-7)"},
 	{"name": "ib-buried-fortress", "display": "Imm Battlefield Alviss Ladder Down (G-7)", "oneway": false, "field": "Battlefield", "type": Direction.DOWN, "logname": "Immortal Battlefield Down Ladder below Battery Chest (G-7)"},
-	{"name": "ib-bottom-moon", "display": "Imm Battlefield Moon Altar Hallway (G-7)", "oneway": true, "field": "Battlefield", "type": Direction.DOWN, "logname": "Immortal Battlefield Moon Altar Hallway (G-7)"},
+	{"name": "ib-bottom-moon", "display": "Imm Battlefield Moon Altar Hallway (G-7) *LIFE*", "oneway": true, "field": "Battlefield", "type": Direction.DOWN, "logname": "Immortal Battlefield Moon Altar Hallway (G-7)"},
 
 	{"name": "icefire-mid-gate", "display": "Icefire Middle Gate (D-3)", "oneway": false, "field": "Icefire", "type": Direction.GATE, "logname": "Icefire Treetop Gate (D-3)"},
 	{"name": "icefire-fire-up", "display": "Icefire Fire Side Ladder Up (C-1)", "oneway": false, "field": "Icefire", "type": Direction.UP, "logname": "Icefire Treetop Ladder Fire Side (C-1)"},
@@ -85,7 +85,7 @@ for (let entr of ENTRANCES)
 const DOORS =
 [
 	{"name": "soul-ygg-bottom", "display": "Yggdrasil Bottom Soul Gate (D-6)", "field": "Yggdrasil", "logname": "Roots of Yggdrasil Soul Gate (D-6)"},
-	{"name": "soul-annwfn-bl", "display": "Annwfn Bottom Left Soul Gate (A-4)", "field": "Annwfn", "logname": "Annwfn Soul Gate (A-4)"},
+	{"name": "soul-annwfn-bl", "display": "Annwfn Bottom Left Soul Gate (A-4) *ORIGIN*", "field": "Annwfn", "logname": "Annwfn Soul Gate (A-4)"},
 	{"name": "soul-ib-tr", "display": "Imm Battlefield Top Right Soul Gate (H-2)", "field": "Battlefield", "logname": "Immortal Battlefield Two Soul Gate (H-2)"},
 	{"name": "soul-ib-bl", "display": "Imm Battlefield Bottom Left Soul Gate (B-7)", "field": "Battlefield-Left", "logname": "Immortal Battlefield Three Soul Gate (B-7)"},
 	{"name": "soul-ib-boat", "display": "Imm Battlefield Spiral Boat Soul Gate (D-4)", "field": "Battlefield-Boat", "logname": "Immortal Battlefield Nine Soul Gate(D-4)"},
