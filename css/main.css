@@ -147,11 +147,12 @@ li {
 
 #notepad-hold {
 	position:absolute;
-	left:70%;
+	/*left:70%;*/
+	right:0;
 	top:0;
-	/*width:30%;*/
+	width:30%;
 	margin:15px 25px 15px 15px;
-	/*padding:0px 10px 0px 0px;*/
+	padding:0px 10px 0px 0px;
 	height:50%;
 }
 
